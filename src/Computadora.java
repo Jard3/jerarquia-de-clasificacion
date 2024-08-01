@@ -8,6 +8,7 @@ public class Computadora extends DispositivoElectronico{
             System.out.println("Ingrese el texto");
             String documento = scanner.nextLine();
             System.out.println("documento creado exitosamente");
+            System.out.println(documento);
 
 
     }

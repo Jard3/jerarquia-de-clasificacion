@@ -13,8 +13,8 @@ public class Tablet extends DispositivoMovil{
         String serie = scanner.nextLine();
         System.out.println("Ingrese la temporada de la serie: " + serie);
         String temporada = scanner.nextLine();
-        System.out.println("Ingrese el capitulo de la serie: " + serie + "temporada: "+temporada);
+        System.out.println("Ingrese el capitulo de la serie: " + serie + " temporada: "+temporada);
         String capitulo = scanner.nextLine();
-        System.out.println("Reproduciendo la serie: " + serie + "temporada: " + temporada + "capitulo: " + capitulo);
+        System.out.println("Reproduciendo la serie: " + serie + " temporada: " + temporada + " capitulo: " + capitulo);
     }
 }
